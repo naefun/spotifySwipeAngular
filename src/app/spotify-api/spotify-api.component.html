@@ -1,0 +1,13 @@
+<p>spotify-api works!</p>
+
+<button (click)="authorize()">request authorization</button>
+<button (click)="logTokenCookieValue()">Log token cookie value</button>
+<button (click)="getRandomSong()">Get song</button>
+<button (click)="playSong()">Play song</button>
+<button (click)="pauseSong()">Pause song</button>
+<button (click)="getDeviceIds()">Device ID's</button>
+
+<h1>{{songName}}</h1>
+<img [src]="trackCoverImageUrl" alt="" srcset="">
+
+<app-spotify-player></app-spotify-player>
